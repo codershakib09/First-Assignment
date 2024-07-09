@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* ==========HEADER SECTION============= */
+/* Navbar start here */
+.navbar {
+  /* width: 1440px; */
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid red;
+  align-items: center;
+  padding: 17px 24px 17px 24px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar h3 {
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+}
+.nav-btn {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  margin: 0px 10px;
+  padding: 10px;
+}
