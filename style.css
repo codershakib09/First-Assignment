@@ -598,17 +598,20 @@
 }
 
 .footer-section {
-  margin: 0 auto;
   margin-top: 79px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
   padding: 32px 150px 32px 150px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
 }
 
+.div {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .creator-title {
   color: rgb(13, 19, 33);
   font-family: Azeret Mono;
