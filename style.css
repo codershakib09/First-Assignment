@@ -439,12 +439,100 @@
   text-decoration-line: underline;
 }
 .skill-html {
-  background: rgba(255, 76, 30, 0.05);
+  background: rgba(255, 75, 30, 0.212);
 }
 .skill-css {
-  background: rgba(0, 76, 232, 0.05);
+  background: rgba(0, 77, 232, 0.178);
 }
 .skill-js {
-  background: rgba(255, 223, 0, 0.05);
+  background: rgba(255, 221, 0, 0.315);
 }
 /*  ======My Current Target end here======= */
+
+/* ========= My Next Target start here===== */
+.next-terget {
+  width: 1140px;
+  height: 866px;
+  margin: 0 auto;
+  margin-top: 111px;
+}
+
+.next-terget-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.next-terget-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+.next-terget-text {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  opacity: 0.7;
+}
+
+.all-content {
+  width: 1140px;
+  height: 219px;
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+}
+
+.link {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.text {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+  opacity: 0.7;
+  text-align: left;
+}
+
+.all-content img {
+  width: 94.78px;
+  height: 84.41px;
+  margin-right: 24px;
+}
+.nodejs img {
+  width: 143.3px;
+  height: 87.75px;
+}
+.nodejs {
+  margin: 24px 0px;
+}
+/* ========= My Next Target end here===== */
