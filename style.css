@@ -370,3 +370,81 @@
 }
 
 /* ==============My Inspiration section end========== */
+
+/*  ======My Current Target start here======= */
+
+.my-current-terget {
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 151px;
+}
+.terget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.terget-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+}
+.terget-text {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0px;
+}
+.skill-container {
+  display: flex;
+  margin-top: 48px;
+}
+.skill-html,
+.skill-css,
+.skill-js {
+  width: 364px;
+  height: 299px;
+  padding: 40px;
+  border-radius: 16px;
+  margin: 0px 24px;
+}
+
+.skill-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin: 8px 0px;
+  text-align: left;
+}
+
+.skill-text {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0px;
+  opacity: 0.7;
+  text-align: left;
+}
+.skill-link {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.skill-html {
+  background: rgba(255, 76, 30, 0.05);
+}
+.skill-css {
+  background: rgba(0, 76, 232, 0.05);
+}
+.skill-js {
+  background: rgba(255, 223, 0, 0.05);
+}
+/*  ======My Current Target end here======= */
