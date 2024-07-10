@@ -329,7 +329,7 @@
   margin-top: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
 }
@@ -349,6 +349,7 @@
   font-weight: 400;
   opacity: 0.7;
   margin-top: 24px;
+
   text-align: center;
 }
 
@@ -536,3 +537,82 @@
   margin: 24px 0px;
 }
 /* ========= My Next Target end here===== */
+
+/* ==================FOOTER START HERE========= */
+.footer-bg {
+  width: 1140px;
+  height: 314px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  background-image: url(assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-content {
+  margin: 32px 0px;
+}
+
+.footer-title {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.footer-text {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin: 16px 0px;
+}
+.input-parent {
+  width: 548px;
+  height: 58px;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  margin: 0px 16px;
+  background: rgb(255, 255, 255);
+}
+
+.input-child {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 120px;
+  height: 58px;
+}
+
+.footer-section {
+  margin: 0 auto;
+  margin-top: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px 150px 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.creator-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* ==================FOOTER END HERE========= */
